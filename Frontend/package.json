@@ -1,8 +1,9 @@
 {
-  "name": "student-performance",
+  "name": "edupredict-ai",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "EduPredict AI - Smart Academic Performance Prediction Platform",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

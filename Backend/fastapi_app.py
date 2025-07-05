@@ -9,8 +9,8 @@ from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 # Create FastAPI application
 app = FastAPI(
-    title="Student Performance Prediction API",
-    description="API for predicting student performance based on various factors",
+    title="EduPredict AI API",
+    description="Advanced AI-powered API for predicting student academic performance and providing educational insights",
     version="1.0.0"
 )
 
@@ -40,7 +40,7 @@ class PredictionResponse(BaseModel):
 # Root endpoint
 @app.get("/")
 async def root():
-    return {"message": "Student Performance Prediction API", "status": "active"}
+    return {"message": "EduPredict AI - Smart Academic Performance Prediction", "status": "active", "version": "1.0.0"}
 
 # Health check endpoint
 @app.get("/health")
